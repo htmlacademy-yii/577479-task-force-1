@@ -24,12 +24,15 @@ class TaskStrategyController
         ];
     }
 
+    
     public function getUserRoles() {
         return [
             UserRoles::CUSTOMER => 'Заказчик',
             UserRoles::WORKER => 'Исполнитель'
         ];
+        
     }
+    
 
     public function getUserActions() {
         return [
